@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://stevedanomodolor.github.io/personal_website/sitemap.xml
