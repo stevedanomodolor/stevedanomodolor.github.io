@@ -61,7 +61,7 @@
       "url": "https://unmanned.life/",
       "startDate": "2022-06-01",
       "endDate": "present",
-      "summary": "Developing autonomous drone solutions for surveillance applications. My responsibilities from a technical point of view include works from software development for drone control, localization abd Behavior Tree-based mission planning, mechanical design of drone components and leading the hardware integration that involved integration of Nvidia Jetson for onboard processing on multiple drones. I also interact with clients as project technical lead inorder to understand their requirements and propose the best solution for their needs.",
+      "summary": "Developing autonomous drone solutions for surveillance applications. My responsibilities from a technical point of view include works from software development for drone control, localization and Behavior Tree-based mission planning, mechanical design of drone components and leading the hardware integration that involved integration of Nvidia Jetson for onboard processing on multiple drones. I also interact with clients as project technical lead inorder to understand their requirements and propose the best solution for their needs.",
       "highlights": ["Nvidia Jetson", "ROS", "C++", "Python", "Computer Vision", "Controllers", "Localization"]
     }
   ],
