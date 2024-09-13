@@ -6,7 +6,7 @@
     "email": "stevedan.o.omodolor@gmail.com",
     "phone": "+34632451081",
     "url": "https://stevedanomodolor.github.io",
-    "summary": "I am a graduate in Mechanical Engineering with a Master's in Automatic Control and Robotics, deeply passionate about designing and building autonomous systems. My expertise spans the entire development process—from mechanical design and robotic integration to software programming in languages like C++, Python, and frameworks such as ROS. Additionally, I have a strong academic background in algorithms for robot control and computer vision. What drives me the most is not just the skills I've acquired but the joy of applying them to solve complex problems and improve people's lives.",
+    "summary": "I am a graduate in Mechanical Engineering with a Master's in Automatic Control and Robotics, deeply passionate about designing and building autonomous systems. My expertise spans the entire development process—from mechanical design and robotic integration to software programming in languages like C++, Python, and frameworks such as ROS. Additionally, I have a strong academic background in algorithms for robot control and computer vision. What drives me the most is not just the skills I've acquired but the joy of applying them to solve complex problems.",
     "location": {
       "city": "Barcelona",
       "countryCode": "US",
@@ -61,7 +61,7 @@
       "url": "https://unmanned.life/",
       "startDate": "2022-06-01",
       "endDate": "present",
-      "summary": "Developing autonomous drone solutions for surveillance applications. My responsibilities from a technical point of view include works from software development for drone control, localization and Behavior Tree-based mission planning, mechanical design of drone components and leading the hardware integration that involved integration of Nvidia Jetson for onboard processing on multiple drones. I also interact with clients as project technical lead inorder to understand their requirements and propose the best solution for their needs.",
+      "summary": "Developing autonomous drone solutions for surveillance applications. My responsibilities from a technical point of view include works from software development for drone control, localization and Behavior Tree-based mission planning, mechanical design of drone components and leading the hardware integration that involved integration of Nvidia Jetson for onboard processing on multiple drones. I also interact with clients as project technical lead inorder to understand their requirements and give that information to the team in order to find the best and appropiate solution.",
       "highlights": ["Nvidia Jetson", "ROS", "C++", "Python", "Computer Vision", "Controllers", "Localization"]
     }
   ],
@@ -156,15 +156,6 @@
       "icon": "fa-solid fa-calendar"
     }
 
-  ],
-  "publications": [
-    {
-      "name": "Head and gaze tracking control for a smart wheelchair with a robot arm",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://drive.google.com/file/d/1fhPxTXAZHQrTFvq2VK-yr6G1N_To5A4c/view?usp=sharing",
-      "summary": "This report includes, on one hand, a research about the current alternative driving systems for wheelchairs, as well as the possibility to integrate a robot arm in them, with the purpose of providing the ability for individuals who cannot move anything other than their head and face, to be able to move around in a wheelchair and manipulate objects or interact with the environment despite their limited movements."
-    }
   ],
   "skills": [
     {

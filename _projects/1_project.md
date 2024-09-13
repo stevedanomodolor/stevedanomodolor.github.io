@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Multirobot control
-description: Algorithms for controlling multiple robot including Agv and Uav at the same time. 
+title: Multirobot Control
+description: Algorithms for controlling both UAV and UGV. 
 img: assets/img/projects/communication_architecture.png
 importance: 1
 category: general
@@ -42,7 +42,7 @@ when the use case requires flexibility, like when one drone in the formation mig
 Video demonstrations can be found in the [link](https://www.youtube.com/playlist?list=PLdsouUoVwMKNFyUv798AElfGWj3b5Zl1F)
 
 The following videos are some of the results of the thesis. 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/multirobot_control.mp4" title="example image" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
@@ -51,7 +51,7 @@ The following videos are some of the results of the thesis.
     Free-space 3 UAV and 1 UGV formation and flocking control
 </div>
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/Three UAV formation and flocking with obstacle(dynamic) avoidance.mp4" title="example image" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>

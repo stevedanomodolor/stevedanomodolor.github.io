@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Head and gaze tracking control
+title: Head and Gaze Tracking Control
 description: Head and gaze tracking control for a smart wheelchair with a robot arm
 img: assets/img/head_and_gaze.png
 importance: 2
@@ -19,7 +19,7 @@ the input movements, and a simulation program to perform the actions{% cite fina
 
 The following shows the system design schematics ad the simulation environment: 
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/system_design_head_tracking.png" title="Free-space UAV Formation and Flocking" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -30,7 +30,7 @@ The following shows the system design schematics ad the simulation environment:
 
 The final video demostration of this project can be seen below:
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/head_and_tracking.mp4" title="example image" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>

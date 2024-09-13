@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Simulation and control of a BLDC motor
+title: Simulation and Control of a BLDC Motor
 description: Simulation and control of a BLDC motor with methods on real-time data exchange and visualization.
 img: assets/img/simulation.png
 importance: 1
@@ -23,7 +23,7 @@ would facilitate sending data between multiple applications independent of the p
 language and finally went into testing transport layers that would enable the data transfer.{% cite Omodolor_2020 %}.
 
 The following user interface shows the result of the projects. 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/gui.png" title="GUI" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -52,37 +52,6 @@ seven states that represent different phases of the ’lifetime’ of a thread.
 </div>
 <div class="caption">
     The different phases of the ’life-time’ of a thread
-</div>
-
-
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/train2.png" title="Training results using DDPG + Sparse Reward" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Training results using DDPG Simulation
-</div>
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/train3.png" title="Training results using DDPG + HER + Sparse Reward" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Training results using DDPG + HER + Sparse Reward Simulation
-</div>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/train4.png" title="Training results from the real scenario" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Training results from the real scenario
 </div>
 
 

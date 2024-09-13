@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ball-Launcher-Reinforcement-Learning
+title: Ball Launcher Reinforcement Learning
 description: A robot that learns to play basketball by using Reinforcement Learning
 img: assets/img/robot_learning.png
 importance: 1
@@ -17,7 +17,7 @@ ROS (Gazebo), prior to the real implementation, to deeply study
 the best approach and prepare the model for the real scenario{% cite robot_learning %}.
 
 The following vide shows the reesult of the project: 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/a_robot_that_learns_to_play_basketball_by_using_reinforcement_learning (1080p).mp4" title="example image" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
