@@ -1,200 +1,268 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Stevedan Ogochukwu Omodolor Omodia",
+    "label": "Robotic Engineer",
+    "image": "assets/img/prof_pic.jpg",
+    "email": "stevedan.o.omodolor@gmail.com",
+    "phone": "+34632451081",
+    "url": "https://stevedanomodolor.github.io",
+    "summary": "I am a graduate in Mechanical Engineering with a Master's in Automatic Control and Robotics, deeply passionate about designing and building autonomous systems. My expertise spans the entire development process—from mechanical design and robotic integration to software programming in languages like C++, Python, and frameworks such as ROS. Additionally, I have a strong academic background in algorithms for robot control and computer vision. What drives me the most is not just the skills I've acquired but the joy of applying them to solve complex problems and improve people's lives.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "city": "Barcelona",
       "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "region": "Catalonia"
+    }
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Robotic research group KU Leuven",
+      "position": "Research Assistant",
+      "location": "Leuven, Belgium",
+      "url": "https://www.kuleuven.be/english/kuleuven",
+      "startDate": "2020-05-01",
+      "endDate": "2020-08-01",
+      "summary": "Worked on updgrading the PR2 robots arm to use EtherCat Compliant drivers under Prof. Dr. Ir. Herman Bruyninckx. The integration was done using SOEM library(https://github.com/OpenEtherCATsociety/SOEM). The end goal was to allow force and torque control of the robot arm using petrinet based state machines to allow real-time control.",
+      "highlights": ["C", "EtherCat", "SOEM", "PR2"]
+    },
+    {
+      "name": "Perception and manipulation lab at IRI - Institut de Robòtica i Informàtica Industrial, CSIC-UPC",
+      "position": "Research Assistant",
+      "location": "Barcelona, Spain",
+      "url": "https://www.iri.upc.edu/",
+      "startDate": "2020-11-01",
+      "endDate": "2021-07-01",
+      "summary": "Conducted research on manipulation for cloth grasping with the Tiago robot under Prof. Júlia Borràs Sol",
+      "highlights": ["ROS", "CPP", "Tiago Robot", "Force control", "Robot grasping"]
+    },
+    {
+      "name": "Mobile robotic lab at IRI - Institut de Robòtica i Informàtica Industrial, CSIC-UPC",
+      "position": "Research Assistant",
+      "location": "Barcelona, Spain",
+      "url": "https://www.iri.upc.edu/",
+      "startDate": "2021-08-01",
+      "endDate": "2021-12-01",
+      "summary": "Worked on control algorithms for grape picking using the Tiago robot under Prof. Alberto Sanfeliu",
+      "highlights": ["ROS", "CPP", "Computer Vision", "Visual Servoing"]
+    },
+    {
+      "name": "Open Source Projects",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "url": "https://github.com/",
+      "startDate": "2020-01-01",
+      "endDate": "present",
+      "summary": "In my free time, I contribute to open-source projects like Navigation2.",
+      "highlights": ["Nav2", "Ros2", "C++"]
+    },
+    {
+      "name": "Unmanned Life",
+      "position": "Robotic Engineer",
+      "location": "Barcelona, Spain",
+      "url": "https://unmanned.life/",
+      "startDate": "2022-06-01",
+      "endDate": "present",
+      "summary": "Developing autonomous drone solutions for surveillance applications. My responsibilities from a technical point of view include works from software development for drone control, localization abd Behavior Tree-based mission planning, mechanical design of drone components and leading the hardware integration that involved integration of Nvidia Jetson for onboard processing on multiple drones. I also interact with clients as project technical lead inorder to understand their requirements and propose the best solution for their needs.",
+      "highlights": ["Nvidia Jetson", "ROS", "C++", "Python", "Computer Vision", "Controllers", "Localization"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Pucra UPC",
+      "location": "Barcelona, Spain",
+      "position": "Mechanical engineer",
+      "url": "https://pucra.upc.edu/",
+      "startDate": "2019-08-01",
+      "endDate": "2019-12-01",
+      "summary": "Worked on designing part for the space rover for the European rover challenge",
+      "highlights": ["Solidworks", "3D Printing", "Mechanical Design"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+      "institution": "Udacity",
+      "location": "Online",
+      "url": "https://www.udacity.com/course/flying-car-nanodegree--nd787?promo=labor&coupon=LABOR40&utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=19692269004_c_individuals&utm_term=151372119052&utm_keyword=udacity%20flying%20car_p&utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=19692269004_c_individuals&utm_term=151372119052&utm_keyword=udacity%20flying%20car_p&gad_source=1&gclid=CjwKCAjwooq3BhB3EiwAYqYoEjg42ByQVxX2RY_bMOXocQVYcQXcnEwpbVT9tdeF64zciRrPwqjp9RoCdj4QAvD_BwE",
+      "area": "Flying Car and Autonomous Flight Engineering",
+      "studyType": "Nanodegree",
+      "startDate": "2022-11-01",
+      "endDate": "2023-03-01",
+      "courses": ["Path planning", "Control", "Estimation"]
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
+      "institution": "Lund University",
+      "location": "Lund, Sweden",
+      "url": "https://github.com/stevedanomodolor/formation_and_coordination_of_UAV_and_UGV",
+      "area": "Master's degree in automatic control and robotics, mechatronics, robotics, and automation engineering(Erasmus)",
+      "studyType": "Master's degree[Erasmus]",
+      "startDate": "2022-01-01",
+      "endDate": "2022-07-01",
+      "courses": ["Developed master's thesis on formation coordination and docking between unmanned ground vehicles and unmanned aerial vehicles"]
+    },
+    {
+      "institution": "Universitat Politècnica de Catalunya ETSEIB",
+      "location": "Barcelona, Spain",
+      "url": "https://www.uzh.ch/",
+      "area": "Master's degree in automatic control and robotics, mechatronics, robotics, and automation engineering",
+      "studyType": "Master's degree",
+      "startDate": "2020-09-01",
+      "endDate": "2022-07-01"
+    },
+    {
+      "institution": "KU Leuven",
+      "location": "Leuven, Belgium",
+      "url": "https://github.com/stevedanomodolor/Simulation-and-control-of-BLDC-motor-with-methods-on-data-transfer-and-visualization/tree/master",
+      "area": "Bachelor's degree, mechanical engineering(Erasmus)",
+      "studyType": "Bachelor's degree[Erasmus]",
+      "startDate": "2020-01-01",
+      "endDate": "2020-06-01"
+    },
+    {
+      "institution": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Spain",
+      "url": "https://eebe.upc.edu/en/degrees/bachelors-degrees/bachelor2019s-degree-in-mechanical-engineering",
+      "area": "Bachelor of engineering - be, mechanical engineering",
+      "studyType": "Bachelor's degree",
+      "startDate": "2016-08-01",
+      "endDate": "2020-06-01"
+   }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Flying Car and Autonomous Flight Engineer",
+      "date": "2023-03-24",
+      "issuer": "Udacity",
+      "url": "https://www.udacity.com/certificate/KS72MKP2",
       "icon": "fa-solid fa-calendar"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Advanced C Programming Course",
+      "date": "2020-07-11",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-2e1abfb3-7956-4e5a-aad8-0914e8cde434/",
+      "icon": "fa-solid fa-calendar"
+    },
+    {
+      "name": "Deep Learning: Advanced Computer Vision (GANs, SSD,+More!)",
+      "date": "2021-02-21",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-2f27d539-61cd-4b44-ac9d-c905bafc8535/",
+      "icon": "fa-solid fa-calendar"
+    },
+    {
+      "name": "Getting started with WebAssembly & Emscripten",
+      "date": "2020-04-11",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-247a322a-afbb-4e32-a8aa-a2e7a7650ecf/",
+      "icon": "fa-solid fa-calendar"
     }
+
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
+      "name": "Head and gaze tracking control for a smart wheelchair with a robot arm",
       "publisher": "Annalen der Physik",
       "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "url": "https://drive.google.com/file/d/1fhPxTXAZHQrTFvq2VK-yr6G1N_To5A4c/view?usp=sharing",
+      "summary": "This report includes, on one hand, a research about the current alternative driving systems for wheelchairs, as well as the possibility to integrate a robot arm in them, with the purpose of providing the ability for individuals who cannot move anything other than their head and face, to be able to move around in a wheelchair and manipulate objects or interact with the environment despite their limited movements."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Ansys",
+      "icon": "fa-solid fa-laptop"
+    },
+    {
+      "name": "C++",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "name": "Python",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "name": "ROS/ROS2",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "name": "Solidworks",
+      "icon": "fa-solid fa-laptop"
+    },
+    {
+      "name": "Matlab",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "name": "Git",
+      "icon" : "fa-solid fa-code"
+    },
+    {
+      "name": "Linux",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "name": "Computer Vision",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "name": "Deep learning",
+      "icon": "fa-solid fa-code"
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
+      "language": "Catalan",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
       "fluency": "Fluent",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Reading",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Programming",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "name": "Playing Musican Instruments",
+      "icon": "fa-solid fa-music"
+    },
+    {
+      "name": "Solving problems",
+      "icon": "fa-solid fa-brain"
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Herman Bruyninckx",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Bachelor's thesis supervisor at the department of Mechanical Engineering, KU Leuven, Belgium"
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Robertsson, Anders",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "reference": "Master's thesis supervisor at the department of Automatic Control, Lund University, Sweden"
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Professor Júlia Borràs Sol",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Research supervisor at the Perception and manipulation lab at IRI - Institut de Robòtica i Informàtica Industrial, CSIC-UPC, Barcelona, Spain"
+    },
+    {
+      "name": "Professor Alberto Sanfeliu",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Research supervisor at the Mobile robotic lab at IRI - Institut de Robòtica i Informàtica Industrial, CSIC-UPC, Barcelona, Spain"
     }
   ]
 }

@@ -1,80 +1,91 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Simulation and control of a BLDC motor
+description: Simulation and control of a BLDC motor with methods on real-time data exchange and visualization.
+img: assets/img/simulation.png
+importance: 1
+category: work
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The first objective of this thesis was to design a motor simulation web application. Despite
+being a web application restricting the programming language to JavaScript, the goal was
+to take advantage of the high-performance nature of a low-level language, such as C, while
+maintaining the easy user interface JavaScript offered. The project also focused on finding
+ways to stream the simulation result using web-based open-source software applications that
+were effective and easy to implement.
+After accomplishing the initial goal, the project then shifted into implementing the
+motor simulation algorithms into a practical robotic application that takes into account the
+multi-threaded asynchronous nature of this kind of application. When this goal was met, the
+question raised was how to broadcast data from the C program to a web-based application
+for visualization. From this point on, the project goes on to study a specific format that
+would facilitate sending data between multiple applications independent of the programming
+language and finally went into testing transport layers that would enable the data transfer.{% cite Omodolor_2020 %}.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+The following user interface shows the result of the projects. 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/gui.png" title="GUI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Graphical user interface showing the final simulation
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+
+ This program is based on a multithreaded application
+library "Deployment Architecture model" written by members of the Robotics Research
+group in Ku Leuven based on the book "Composable, adaptive, and explainable systemsof-systems" {% cite herman2017 %}. The software is made of multiples threads, activity, and algorithms. The
+threads are time-triggered, meaning that they carry out loops at a specific cycle time. The
+cycle continues until set false. At each iteration, the loop does one of the "4C" : composition,
+communication, coordination and computation. The application uses a life-cycle state
+machine to decide which of the 4c function to execute. The Life-sate cycle machines have
+seven states that represent different phases of the ’lifetime’ of a thread.
+
+
+
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/phase1.png" title="The different phases of the ’life-time’ of a thread" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The different phases of the ’life-time’ of a thread
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
 
-```html
+
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/train2.png" title="Training results using DDPG + Sparse Reward" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Training results using DDPG Simulation
+</div>
 
-{% endraw %}
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/train3.png" title="Training results using DDPG + HER + Sparse Reward" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Training results using DDPG + HER + Sparse Reward Simulation
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/train4.png" title="Training results from the real scenario" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Training results from the real scenario
+</div>
+
+
+
+
+Full implementation can be found [here](https://github.com/stevedanomodolor/Simulation-and-control-of-BLDC-motor-with-methods-on-data-transfer-and-visualization) 

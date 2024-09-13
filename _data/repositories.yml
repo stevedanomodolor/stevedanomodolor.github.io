@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - stevedanomodolor
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - stevedanomodolor/formation_and_coordination_of_UAV_and_UGV
+  - stevedanomodolor/Simulation-and-control-of-BLDC-motor-with-methods-on-data-transfer-and-visualization
+  - stevedanomodolor/Head_and_gaze_tracking_control_for_a_smart_wheelchair_with_a_robot_arm
+  - stevedanomodolor/UDACITY_Flying_Car
+  - stevedanomodolor/robot_learning
+  - stevedanomodolor/Game_of_life

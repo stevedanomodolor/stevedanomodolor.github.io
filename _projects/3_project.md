@@ -1,81 +1,84 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Ball-Launcher-Reinforcement-Learning
+description: A robot that learns to play basketball by using Reinforcement Learning
+img: assets/img/robot_learning.png
+importance: 1
 category: work
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In this project, we are implementing a tossing ball robot that
+learns by means of Reinforcement Learning. The robot is able
+to determine its optimal actions by using Computer Vision techniques, combined with different solutions, such as Q-learning and
+DDPG+HER, which have been broadly researched to have a higher
+accuracy. Simulations have also been done with OpenAI Gym and
+ROS (Gazebo), prior to the real implementation, to deeply study
+the best approach and prepare the model for the real scenario{% cite robot_learning %}.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+The following vide shows the reesult of the project: 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/video/a_robot_that_learns_to_play_basketball_by_using_reinforcement_learning (1080p).mp4" title="example image" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Ball-Launcher-Reinforcement-Learning
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+
+
+Some of the results of the experiments performed can be found below:
+
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/train1.png" title="Training result using Q-learning" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Training result using Q-learning Simulation
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/train2.png" title="Training results using DDPG + Sparse Reward" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Training results using DDPG Simulation
+</div>
 
-{% endraw %}
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/train3.png" title="Training results using DDPG + HER + Sparse Reward" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Training results using DDPG + HER + Sparse Reward Simulation
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/train4.png" title="Training results from the real scenario" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Training results from the real scenario
+</div>
+
+
+# Conclusions 
+In this report, a robot is taught to toss a ball into a bucket using reinforcement
+different reinforcement learning techniques. In order to do so, a prototype has
+to be built from scratch both in the real world and in simulation.
+Despite the limited robustness of the robot, the results presented before
+are quite promising, both in simulation and in the real-scenario. Using DDPG
+with HER is a good choice for this kind of application where you need trial
+and error experiments, and its success rate was good and fast. Adding HER is
+very useful when the states are varying and the model learns faster.
+There are some variations that ought to be made to enhance the perfor-
+mance, however, the designed first prototype has a huge potential.
+
+Full implementation can be found [here](https://github.com/stevedanomodolor/robot_learning) 
