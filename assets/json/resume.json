@@ -21,7 +21,7 @@
       "url": "https://www.kuleuven.be/english/kuleuven",
       "startDate": "2020-05-01",
       "endDate": "2020-08-01",
-      "summary": "Worked on updgrading the PR2 robots arm to use EtherCat Compliant drivers under Prof. Dr. Ir. Herman Bruyninckx. The integration was done using SOEM library(https://github.com/OpenEtherCATsociety/SOEM). The end goal was to allow force and torque control of the robot arm using petrinet based state machines to allow real-time control.",
+      "summary": "Worked on upgrading the PR2 robots arm to use EtherCat Compliant drivers under Prof. Dr. Ir. Herman Bruyninckx. The integration was done using [SOEM library](https://github.com/OpenEtherCATsociety/SOEM). The end goal was to allow force and torque control of the robot arm using petrinet based state machines to allow real-time control.",
       "highlights": ["C", "EtherCat", "SOEM", "PR2"]
     },
     {
@@ -61,7 +61,7 @@
       "url": "https://unmanned.life/",
       "startDate": "2022-06-01",
       "endDate": "present",
-      "summary": "Developing autonomous drone solutions for surveillance applications. My responsibilities from a technical point of view include works from software development for drone control, localization and Behavior Tree-based mission planning, mechanical design of drone components and leading the hardware integration that involved integration of Nvidia Jetson for onboard processing on multiple drones. I also interact with clients as project technical lead inorder to understand their requirements and give that information to the team in order to find the best and appropiate solution.",
+      "summary": "Developing autonomous drone solutions for surveillance applications. My responsibilities from a technical point of view include works from software development for drone control, localization and Behavior Tree-based mission planning, mechanical design of drone components and leading the hardware integration that involved integration of Nvidia Jetson for onboard processing on multiple drones. I also interact with clients as project technical lead to understand their requirements and give that information to the team to find the best and appropriate solution.",
       "highlights": ["Nvidia Jetson", "ROS", "C++", "Python", "Computer Vision", "Controllers", "Localization"]
     }
   ],
@@ -69,7 +69,7 @@
     {
       "organization": "Pucra UPC",
       "location": "Barcelona, Spain",
-      "position": "Mechanical engineer",
+      "position": "Mechanical Engineer",
       "url": "https://pucra.upc.edu/",
       "startDate": "2019-08-01",
       "endDate": "2019-12-01",
