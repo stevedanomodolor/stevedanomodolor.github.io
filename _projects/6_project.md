@@ -14,7 +14,7 @@ The idea of visual servoing consist of controlling the motion of a robot using i
 The following shows one of the video experiments obtained during the project: 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/visual_servoing.mp4" title="Servo-image" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
 </div>
