@@ -4,7 +4,7 @@ title: Head and gaze tracking control
 description: Head and gaze tracking control for a smart wheelchair with a robot arm
 img: assets/img/head_and_gaze.png
 importance: 2
-category: work
+category: general
 related_publications: true
 ---
 

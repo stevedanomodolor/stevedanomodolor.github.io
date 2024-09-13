@@ -4,7 +4,7 @@ title: Multirobot control
 description: Algorithms for controlling multiple robot including Agv and Uav at the same time. 
 img: assets/img/projects/communication_architecture.png
 importance: 1
-category: work
+category: general
 related_publications: true
 ---
 

@@ -4,7 +4,7 @@ title: Simulation and control of a BLDC motor
 description: Simulation and control of a BLDC motor with methods on real-time data exchange and visualization.
 img: assets/img/simulation.png
 importance: 1
-category: work
+category: general
 related_publications: true
 ---
 

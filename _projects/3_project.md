@@ -4,7 +4,7 @@ title: Ball-Launcher-Reinforcement-Learning
 description: A robot that learns to play basketball by using Reinforcement Learning
 img: assets/img/robot_learning.png
 importance: 1
-category: work
+category: general
 related_publications: true
 ---
 

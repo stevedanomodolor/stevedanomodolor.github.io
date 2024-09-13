@@ -4,7 +4,7 @@ title: Force and torque control of the Pr2 Robot
 description: The project consist of upgrading the motor drivers on the pr2 to allow force/torque control through Ethercat protocol
 img: assets/img/pr2.jpg
 importance: 1
-category: work
+category: general
 related_publications: true
 ---
 
