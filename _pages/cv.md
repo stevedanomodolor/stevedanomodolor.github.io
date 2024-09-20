@@ -1,9 +1,9 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: Resume/Cv
 nav: true
-nav_order: 5
+nav_order: 2
 cv_pdf: StevedanOgochukwuOmodolorOmodiaCV.pdf
 description: This page includes an overall summary of my CV for more details look into the pdf. 
 toc:
