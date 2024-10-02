@@ -61,7 +61,7 @@
       "url": "https://unmanned.life/",
       "startDate": "2022-06-01",
       "endDate": "present",
-      "summary": "Developing autonomous drone solutions for surveillance applications. My responsibilities from a technical point of view include works from software development for drone control, localization and Behavior Tree-based mission planning, mechanical design of drone components and leading the hardware integration that involved integration of Nvidia Jetson for onboard processing on multiple drones. I also interact with clients as project technical lead to understand their requirements and give that information to the team to find the best and appropriate solution.",
+      "summary": "Developing autonomous drone solutions for surveillance applications. My responsibilities from a technical point of view include works from software development for drone control, localization and Behavior Tree-based mission planning, mechanical design of drone components and leading the hardware integration that involved integration of Nvidia Jetson for onboard processing on multiple drones.",
       "highlights": ["Nvidia Jetson", "ROS", "C++", "Python", "Computer Vision", "Controllers", "Localization"]
     }
   ],
@@ -92,7 +92,7 @@
       "institution": "Lund University",
       "location": "Lund, Sweden",
       "url": "https://github.com/stevedanomodolor/formation_and_coordination_of_UAV_and_UGV",
-      "area": "Master's degree in automatic control and robotics, mechatronics, robotics, and automation engineering(Erasmus)",
+      "area": "Master's degree in automatic control and robotics engineering(Erasmus)",
       "studyType": "Master's degree[Erasmus]",
       "startDate": "2022-01-01",
       "endDate": "2022-07-01",
@@ -102,7 +102,7 @@
       "institution": "Universitat Politècnica de Catalunya ETSEIB",
       "location": "Barcelona, Spain",
       "url": "https://www.uzh.ch/",
-      "area": "Master's degree in automatic control and robotics, mechatronics, robotics, and automation engineering",
+      "area": "Master's degree in automatic control and robotics engineering",
       "studyType": "Master's degree",
       "startDate": "2020-09-01",
       "endDate": "2022-07-01"
