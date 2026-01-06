@@ -58,10 +58,20 @@
       "position": "Robotic Engineer",
       "location": "Barcelona, Spain",
       "url": "https://unmanned.life/",
-      "startDate": "2022-06-01",
+      "startDate": "2024-11-10",
       "endDate": "present",
       "summary": "Developing autonomous drone solutions for surveillance applications. My responsibilities from a technical point of view include works from software development for drone control, localization and Behavior Tree-based mission planning, mechanical design of drone components and leading the hardware integration that involved integration of Nvidia Jetson for onboard processing on multiple drones.",
       "highlights": ["Nvidia Jetson", "ROS", "C++", "Python", "Computer Vision", "Controllers", "Localization"]
+    },
+    {
+      "name": "BitMetrics",
+      "position": "Robotic & Computer vision researcher and developer",
+      "location": "Barcelona, Spain",
+      "url": "https://bitmetrics.ai/en",
+      "startDate": "2024-11-13",
+      "endDate": "present",
+      "summary": "I developed computer vision algorithms for robotic pick-and-place solutions and industrial anomaly detection. To improve team efficiency, I established software engineering best practices that ensured higher code quality and overall system stability. I also designed and implemented a full CI/CD pipeline featuring automated container builds, code quality checks, and testing protocols. These improvements, along with automated deployment workflows, successfully reduced client PC setup time from over a day to less than 30 minutes.",
+      "highlights": ["Nvidia Jetson", "C++", "Python", "Computer Vision", "CI/CD pipelines", "Deep Learning", "Docker Containers"]
     }
   ],
   "volunteer": [
